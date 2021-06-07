@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Weather Logger</string>
+    <string name="temperature">%s C °</string>
+</resources>
