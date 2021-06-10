@@ -15,6 +15,7 @@
         android:layout_gravity="center_horizontal"
         android:padding="16sp"
         android:textSize="20sp"
+        android:textColor="@color/black"
         android:textStyle="bold" />
 
     <RelativeLayout
@@ -28,6 +29,7 @@
             android:layout_height="wrap_content"
             android:padding="16sp"
             android:text="Temperature:"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <TextView
@@ -37,6 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:padding="16sp"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
     </RelativeLayout>
@@ -52,6 +55,7 @@
             android:layout_height="wrap_content"
             android:padding="16sp"
             android:text="Minimum temperature:"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <TextView
@@ -61,6 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:padding="16sp"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
     </RelativeLayout>
@@ -75,6 +80,7 @@
             android:layout_height="wrap_content"
             android:padding="16sp"
             android:text="Maximum temperature:"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <TextView
@@ -84,6 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:padding="16sp"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
     </RelativeLayout>
@@ -98,6 +105,7 @@
             android:layout_height="wrap_content"
             android:padding="16sp"
             android:text="Pressure:"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <TextView
@@ -107,7 +115,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:padding="16sp"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="@color/black" />
 
     </RelativeLayout>
 
@@ -122,6 +131,7 @@
             android:layout_height="wrap_content"
             android:padding="16sp"
             android:text="Feels like:"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <TextView
@@ -131,6 +141,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:padding="16sp"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
 
@@ -146,6 +157,7 @@
             android:layout_height="wrap_content"
             android:padding="16sp"
             android:text="Wind speed:"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <TextView
@@ -155,6 +167,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:padding="16sp"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
     </RelativeLayout>

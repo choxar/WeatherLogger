@@ -80,6 +80,7 @@
                         android:layout_height="wrap_content"
                         android:padding="16sp"
                         android:text="City:"
+                        android:textColor="@color/black"
                         android:textSize="20sp" />
 
                     <TextView
@@ -90,6 +91,7 @@
                         android:layout_alignParentEnd="true"
                         android:padding="16sp"
                         android:text="@{viewModel.weather.name}"
+                        android:textColor="@color/black"
                         android:textSize="20sp" />
 
                 </RelativeLayout>
@@ -105,7 +107,8 @@
                         android:layout_height="wrap_content"
                         android:padding="16sp"
                         android:text="Temperature:"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:textColor="@color/black" />
 
                     <TextView
 
@@ -115,6 +118,7 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
                         android:padding="16sp"
+                        android:textColor="@color/black"
                         android:textSize="16sp" />
 
                 </RelativeLayout>
@@ -126,6 +130,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"
+                    android:layout_margin="16dp"
                     android:text="More Details"
                     android:textSize="12sp" />
 
